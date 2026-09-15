@@ -1,0 +1,52 @@
+# 📊 Processamento de Linguagem Natural e Análise de Dados (Aula_Banco_Dados)
+
+Este repositório contém os projetos, atividades práticas e scripts desenvolvidos durante a graduação em **Ciência de Dados**, cobrindo desde a manipulação e visualização de dados até técnicas introdutórias de **Processamento de Linguagem Natural (PLN)** e integração com bancos de dados.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+
+* **Linguagem:** Python 3.9+
+* **Ambiente de Desenvolvimento:** VS Code, Jupyter Notebook (`.ipynb`)
+* **Controle de Versão:** Git & GitHub Desktop
+* **Bibliotecas Principais:**
+  * `pandas` — Manipulação e análise de dados estruturados (CSV/Excel)
+  * `matplotlib` — Criação de gráficos e visualizações de dados em 3D
+  * `openpyxl` — Suporte para leitura e escrita de arquivos Excel (`.xlsx`)
+
+---
+
+## 📂 Conteúdo do Repositório
+
+* **`cubo_dados_para_analise.ipynb`**: Análise multidimensional e visualização em gráfico 3D da linha de produtos, preços unitários, quantidades e totais de vendas.
+* **`Automacao-banco-dados_escola-1.ipynb`**: Scripts de automação e integração de dados estruturados.
+* **`SuperMercados.xlsx` / `dados_escola.csv` / `dados.csv`**: Conjuntos de dados utilizados para testes e análises práticas.
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+1. **Clone o repositório:**
+   ```bash
+  git clone [https://github.com/SEU_USUARIO/Aula_Banco_Dados.git](https://github.com/Crisstudy/Aula_Banco_Dados.git)
+   cd Aula_Banco_Dados
+
+2. Crie e ative o ambiente virtual (venv):
+   macOS / Linux:
+   python3 -m venv venv
+   source venv/bin/activate
+
+   Windows:
+   python -m venv venv
+   venv\Scripts\activate
+
+3. Instale as dependências:
+   pip install pandas matplotlib openpyxl ipykernel
+
+4. Execute os Notebooks:
+   Abra o VS Code na pasta do projeto:
+   code .
+   Selecione o Kernel do Jupyter para apontar para o seu ambiente virtual
+   ./venv/bin/python
+   
+
