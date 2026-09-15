@@ -21,6 +21,7 @@ Este repositório contém os projetos, atividades práticas e scripts desenvolvi
 * **`cubo_dados_para_analise.ipynb`**: Análise multidimensional e visualização em gráfico 3D da linha de produtos, preços unitários, quantidades e totais de vendas.
 * **`Automacao-banco-dados_escola-1.ipynb`**: Scripts de automação e integração de dados estruturados.
 * **`SuperMercados.xlsx` / `dados_escola.csv` / `dados.csv`**: Conjuntos de dados utilizados para testes e análises práticas.
+* **`amostra_avaliacao_loja.csv`**: O repositório também conta com um pipeline de mineração de dados textuais aplicados à análise de feedbacks de clientes (*e-commerce* / avaliações de lojas).
 
 ---
 
@@ -49,4 +50,18 @@ Este repositório contém os projetos, atividades práticas e scripts desenvolvi
    Selecione o Kernel do Jupyter para apontar para o seu ambiente virtual
    ./venv/bin/python
    
+## ⛏️ Mineração de Dados de Texto (Text Mining & PLN)
 
+O repositório também conta com um pipeline de mineração de dados textuais aplicados à análise de feedbacks de clientes (*e-commerce* / avaliações de lojas).
+
+### 🛠️ Etapas do Processo de Mineração:
+* **Limpeza e Tratamento:** Tratamento de valores nulos (`NaN`) e padronização dos tipos de dados com `pandas`.
+* **Tokenização e Normalização:** Divisão de textos em tokens e conversão para caixa baixa para evitar duplicidade de contagens.
+* **Contagem de Frequência (Bag-of-Words):** Mapeamento e estruturação do vocabulário do dataset utilizando a classe `Counter` da biblioteca `collections`.
+* **Processamento de Linguagem Natural com spaCy:** Aplicação do modelo em português (`pt_core_news_sm`) para tarefas avançadas de PLN.
+
+### 📋 Principais Bibliotecas Utilizadas nesta Etapa:
+```python
+import pandas as pd
+from collections import Counter
+import spacy
